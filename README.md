@@ -1,35 +1,46 @@
-# PREDIKSI KUALITAS UDARA BERDASARKAN DATA POLUTAN DAN LINGKUNGAN
+# <h1 align="center">PREDIKSI KUALITAS UDARA BERDASARKAN DATA POLUTAN DAN LINGKUNGAN</h1>
 
-Sumber Image: [Access Here.....](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.who.int%2Fnews%2Fitem%2F04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data&psig=AOvVaw0y7Nq7V3oR3uF7j5O7wP3B&ust=1734925003299000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjQ4bO5uooDFQAAAAAdAAAAABAE)
+<div align="center">
+  <img src="https://wadr.org/wp-content/uploads/2024/01/gettyimages-635231222-master1bafd88464714d55bff4aeeea02b5440-scaled.jpg" alt="Gambar Utama" width="500" height="300">
+  <p>
+    <small>
+      Sumber Image : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.who.int%2Fnews%2Fitem%2F04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data&psig=AOvVaw0y7Nq7V3oR3uF7j5O7wP3B&ust=1734925003299000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjQ4bO5uooDFQAAAAAdAAAAABAE">Access Here.....</a>
+    </small>
+  </p>
+</div>
 
-# TABLE OF CONTENT
+# <h1 align="center">TABLE OF CONTENT</h1>
+
 
 1. [Deskripsi Project](#-deskripsi-project-)
-   * [Latar Belakang](#latar-belakang)
-   * [Tujuan Pengembangan](#tujuan-pengembangan)
+      - [Latar Belakang](#latar-belakang)
+      - [Tujuan Pengembangan](#tujuan-pengembangan)
 2. [Sumber Dataset](#-sumber-dataset-)
 3. [Preprocessing dan Pemodelan](#-preprocessing-dan-pemodelan-)
-   * [Pemilihan Kolom/Atribut](#pemilihan-kolomatribut)
-   * [Preprocessing Data](#preprocessing-data)
-   * [Pemodelan](#pemodelan)
+      - [Pemilihan Kolom/Atribut](#pemilihan-kolomatribut)
+      - [Preprocessing Data](#preprocessing-data)
+      - [Pemodelan](#pemodelan)
 4. [Langkah Instalasi](#-langkah-instalasi-)
-   * [Software Utama](#software-utama)
-   * [Dependensi](#dependensi)
-   * [Menjalankan Sistem Prediksi](#menjalankan-sistem-prediksi)
-   * [Pelatihan Model](#pelatihan-model)
+      - [Software Utama](#software-utama)
+      - [Dependensi](#dependensi)
+      - [Menjalankan Sistem Prediksi](#menjalankan-sistem-prediksi)
+      - [Pelatihan Model](#pelatihan-model)
 5. [Hasil dan Analisis](#-hasil-dan-analisis-)
-   * [Evaluasi Model](#evaluasi-model)
+      - [Evaluasi Model](#evaluasi-model )
 6. [Sistem Sederhana Streamlit](#-sistem-sederhana-streamlit-)
-   * [Tampilan](#tampilan)
-   * [Link Live Demo](#link-live-demo)
-7. [Biodata](#-biodata-)
+      - [Tampilan](#tampilan)
+      - [Link Live Demo](#link-live-demo)
+7. [Biodata](#-biodata-)  
 
+---
+
+
+<h1 align="center">📚 Deskripsi Project 📚</h1>
 ---
 
 # Deskripsi Project
 
 Proyek ini bertujuan untuk **mengembangkan sistem prediksi kualitas udara** berdasarkan data polutan dan faktor lingkungan menggunakan model pembelajaran mesin. Sistem ini memprediksi konsentrasi polutan (seperti CO, NO2, C6H6) dan mengklasifikasikannya ke dalam kategori AQI (Air Quality Index) seperti Good, Moderate, Unhealthy. Prediksi mencakup mode single polutan, multi polutan, dan time-series 24 jam ke depan.
-
 ---
 
 ### Latar Belakang
